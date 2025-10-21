@@ -8,7 +8,7 @@ class Company extends Model
 {
     protected $fillable = [
         'name',
-        'licensed'
+        'license_active'
     ];
 
     public function users()
